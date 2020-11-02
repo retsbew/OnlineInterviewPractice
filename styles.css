@@ -1,7 +1,7 @@
 body {
   font-family: "Mulish", sans-serif;
   height: 100vh;
-  background-image: linear-gradient(#4eb94e, #42bd11);
+  background-image: linear-gradient(#8e9e85, #929e8d);
 }
 .section {
   display: none;
@@ -9,6 +9,8 @@ body {
 
 #chooser {
   text-align: center;
+  width: 50%;
+  margin: auto;
 }
 
 #chooser > div {
