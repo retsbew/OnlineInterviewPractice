@@ -1,0 +1,122 @@
+body {
+  font-family: "Mulish", sans-serif;
+  height: 100vh;
+  background-image: linear-gradient(#4eb94e, #42bd11);
+}
+.section {
+  display: none;
+}
+
+#chooser {
+  text-align: center;
+}
+
+#chooser > div {
+  border-radius: 5px;
+  background-color: #b2c7db;
+  padding: 5px;
+  margin: 5px;
+}
+
+#chooser > div:hover {
+  cursor: pointer;
+}
+
+#pre,
+#pre2,
+#done {
+  text-align: center;
+  color: #5e5e5e;
+}
+
+#recording {
+  color: #5e5e5e;
+}
+
+#pre-main,
+#done-main {
+  background-color: white;
+  box-shadow: 1px 1px 3px black;
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px;
+  width: 600px;
+}
+
+#pre-video {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 560px;
+}
+
+button {
+  background-color: #003b6e;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: 0px;
+}
+
+#pre2-main {
+  background-color: white;
+  box-shadow: 1px 1px 3px black;
+  margin-left: auto;
+  margin-right: auto;
+  height: 650px;
+  width: 600px;
+}
+
+.practice-banner {
+  background-color: #047fb2;
+  color: white;
+  padding: 5px;
+}
+
+#recording-main {
+  background-color: white;
+  box-shadow: 1px 1px 3px black;
+  margin-left: auto;
+  margin-right: auto;
+  height: 650px;
+  width: 900px;
+  display: flex;
+}
+
+#recording-main > div {
+  flex-grow: 1;
+  padding: 10px;
+  min-width: 450px;
+  max-width: 450px;
+}
+
+#prep {
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: #ababab;
+  width: 350px;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#prep-time-meter {
+  height: 60%;
+  background-color: #253e8a;
+  width: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#countdown {
+  margin-top: 10px;
+  width: 400px;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background-color: #777777;
+  font-size: 60px;
+  font-weight: bold;
+}

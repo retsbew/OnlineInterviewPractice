@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Interview Self Test</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <script src="questions.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="section" id="chooser">
+            <h1 style="color: purple;">Choose an Interview Question</h1>
+        </div>
+        <div class="section" id="pre">
+            <div id="pre-main">
+                <div class="interview-banner">This is practice software. No video will be recorded.</div>
+                <h1 style="padding-top: 30px;">Take a interview Question</h1>
+                <select id="video-options">
+                </select>
+                <br/>
+                <video id="pre-video" autoplay></video>
+                <button id="start-pre2">Try the interview question</button>
+            </div>
+        </div>
+        <div class="section" id="pre2">
+            <div id="pre2-main">
+                <div class="interview-banner">This is practice software. No video will be recorded.</div>
+                <h1 style="font-size: 48px; padding-top: 30px;">
+                    <i class="fa fa-video-camera"></i>
+                </h1>
+                <p style="font-size: 24px;">You will be asked to respond to questions on video. <b>You will be given 1 attempt</b> to record your audio response.</p>
+                <button id="start-recording">Start interview Question</button>
+            </div>
+        </div>
+        <div class="section" id="recording">
+                <div style="width: 892px; margin-left: auto; margin-right: auto;" class="interview-banner">This is interview software. No video will be recorded.</div>
+            <div id="recording-main" class="flex-container">
+                <div>
+                    <h1>Question <span id="question-number"></span></h1>
+                    <br/>
+                    <br/>
+                    <div id="question-content"></div>
+                </div>
+                <div>
+                    <div style="margin-top: 20px; font-size: 30px; font-weight: bold;">Video Response
+                            <small style="font-size: 15px; font-weight: normal; padding-left: 20px;">minutes: 3</small>
+                    </div>
+
+                    <div id="prep">
+                        <div style="padding-right: 5px; padding-top: 5px; padding-bottom: 5px;">
+                            <div id="label-text">Prep Time</div>
+                        <span style="font-weight: normal;" id="prep-time-left">0:30</span>
+                        </div>
+                        <div style="padding-right: 5px; width: 150px;">
+                            <div id="prep-time-meter"></div>
+                        </div>
+                        <div>
+                            <button id="begin-answering">Start</button>
+                            <button id="done-answering">Done</button>
+                        </div>
+                    </div>
+                    <div id="countdown">3</div>
+                    <video style="padding-top: 10px; width: 400px;" id="video" autoplay></video>
+                </div>
+
+            </div>
+        </div>
+        <div class="section" id="done">
+            <div id="done-main">
+                <div class="interview-banner">This is practice software. No video will be recorded.</div>
+                <h1 style="font-size: 48px; padding-top: 30px;">
+                    <i class="fa fa-video-camera"></i>
+                </h1>
+                <p style="font-size: 24px;">You have completed answering the interview question.</p>
+                <button id="another-question">Try Another Question</button>
+            </div>
+        </div>
+    </body>
+</html>
